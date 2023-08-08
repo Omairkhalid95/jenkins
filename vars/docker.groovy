@@ -1,5 +1,6 @@
-def test() {
+def call() {
 
 sh "echo Hello Omair"
+  
 
 }
