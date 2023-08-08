@@ -1,4 +1,4 @@
-def call() {
+def test() {
 
 sh "echo Hello Omair"
 
