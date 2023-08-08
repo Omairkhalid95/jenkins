@@ -1,6 +1,6 @@
 def call(Map config = [:]) {
 
-sh "echo Hello ${config.name}"
-  
 
+docker build -t omair950/${config.tag} .
+sh "Docker Build successfully with version omair950/${config.tag}"
 }
